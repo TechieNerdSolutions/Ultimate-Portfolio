@@ -17,34 +17,22 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
+          cache: 'pnpm'
 
-      - name: Check for lock file
-        id: check_lock
-        run: |
-          if [ ! -f "package-lock.json" ]; then
-            echo "Lock file not found. Installing dependencies without lock file."
-            echo "lock-file-exists=false" >> $GITHUB_ENV
-          else
-            echo "lock-file-exists=true" >> $GITHUB_ENV
-          fi
+      - name: Install PNPM
+        run: npm install -g pnpm
 
       - name: Install dependencies
-        run: |
-          if [ "$lock-file-exists" == "true" ]; then
-            npm ci
-          else
-            npm install
-          fi
+        run: pnpm install
 
       - name: Run linter
-        run: npm run lint
+        run: pnpm lint
 
       - name: Run type check
-        run: npm run type-check
+        run: pnpm type-check
 
       - name: Run tests
-        run: npm run test
+        run: pnpm test
 
       - name: Build
-        run: npm run build
+        run: pnpm build
