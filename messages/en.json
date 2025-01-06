@@ -1,0 +1,30 @@
+{
+    "navigation": {
+      "home": "Home",
+      "projects": "Projects",
+      "blog": "Blog",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "home": {
+      "hero": {
+        "title": "Welcome to my Portfolio",
+        "description": "I'm a full-stack developer passionate about building beautiful and functional web applications. Currently working on exciting projects and always open to new opportunities.",
+        "cta": {
+          "projects": "View Projects",
+          "contact": "Contact Me"
+        }
+      },
+      "featured": {
+        "title": "Featured Projects",
+        "description": "Some of my recent work",
+        "viewAll": "View All Projects"
+      }
+    },
+    "status": {
+      "available": "Available for hire",
+      "working": "Currently working on",
+      "lastUpdated": "Last updated"
+    }
+  }
+

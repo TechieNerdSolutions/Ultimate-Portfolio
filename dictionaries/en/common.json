@@ -1,0 +1,24 @@
+{
+    "nav": {
+      "home": "Home",
+      "projects": "Projects",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "hero": {
+      "title": "Welcome to my Portfolio",
+      "subtitle": "Frontend Developer & UI Designer",
+      "cta": "View My Work"
+    },
+    "projects": {
+      "title": "Featured Projects",
+      "viewAll": "View All Projects"
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send Message"
+    }
+  }

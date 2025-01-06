@@ -1,0 +1,24 @@
+{
+    "nav": {
+      "home": "Inicio",
+      "projects": "Proyectos",
+      "about": "Sobre Mí",
+      "contact": "Contacto"
+    },
+    "hero": {
+      "title": "Bienvenido a mi Portafolio",
+      "subtitle": "Desarrollador Frontend y Diseñador UI",
+      "cta": "Ver mi Trabajo"
+    },
+    "projects": {
+      "title": "Proyectos Destacados",
+      "viewAll": "Ver Todos los Proyectos"
+    },
+    "contact": {
+      "title": "Contactame",
+      "name": "Nombre",
+      "email": "Correo",
+      "message": "Mensaje",
+      "send": "Enviar Mensaje"
+    }
+  }

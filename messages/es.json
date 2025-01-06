@@ -1,0 +1,30 @@
+{
+    "navigation": {
+      "home": "Inicio",
+      "projects": "Proyectos",
+      "blog": "Blog",
+      "about": "Sobre mí",
+      "contact": "Contacto"
+    },
+    "home": {
+      "hero": {
+        "title": "Bienvenido a mi Portafolio",
+        "description": "Soy un desarrollador full-stack apasionado por crear aplicaciones web hermosas y funcionales. Actualmente trabajando en proyectos emocionantes y siempre abierto a nuevas oportunidades.",
+        "cta": {
+          "projects": "Ver Proyectos",
+          "contact": "Contactar"
+        }
+      },
+      "featured": {
+        "title": "Proyectos Destacados",
+        "description": "Algunos de mis trabajos recientes",
+        "viewAll": "Ver Todos los Proyectos"
+      }
+    },
+    "status": {
+      "available": "Disponible para contratar",
+      "working": "Actualmente trabajando en",
+      "lastUpdated": "Última actualización"
+    }
+  }
+
